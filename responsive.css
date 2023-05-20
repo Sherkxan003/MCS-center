@@ -43,18 +43,24 @@
     .nav {
         position: relative;
     }
+    body.active{
+        overflow: hidden;
+    }
 
     header .nav_list {
         display: flex;
-        width: 50%;
-        height: 90vh;
+        width: 300px;
+        justify-content: start;
+        height: 100vh;
+        align-items: center;
+        gap: 80px;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         background-color: white;
         z-index: 9999;
         top: 80px;
         right: -11px;
-        padding: 30px;
+        /* padding: 30px; */
         transform: translateX(120%);
 
 
@@ -139,7 +145,7 @@
     }
 
     .carusel_btn {
-        right: -60px;
+        right: 0;
     }
 
     section {
@@ -157,10 +163,6 @@
     hr {
         width: 120px;
     }
-
-
-
-
 
     .img1 {
         width: 100%;

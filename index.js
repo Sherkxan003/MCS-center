@@ -28,9 +28,12 @@ sliderButton.addEventListener("click", (e) => {
     }
 
 })
+const body =document.querySelector("body")
 const btnMenu = document.querySelector(".menu_btn")
 const navMenu = document.querySelector(".nav_list")
 console.log(navMenu);
 btnMenu.addEventListener("click", (e) => {
     navMenu.classList.toggle("active")
+    body.classList.toggle("active")
+
 })
