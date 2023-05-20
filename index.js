@@ -22,7 +22,7 @@ sliderButton.addEventListener("click", (e) => {
         }
         if (e.target.classList.contains("third")) {
             e.target.classList.add("active")
-            slider.style.transform = "translateY(-1100px)"
+            slider.style.transform = "translateY(-1110px)"
             slider.style.transition = "all 1.5s ease"
         }
     }
